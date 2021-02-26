@@ -8,16 +8,14 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 import java.util.UUID;
 
-/**
- * Created by jt on 2019-07-16.
- */
+
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class HelloWorldMessage implements Serializable {
 
-    static final long serialVersionUID = -4112388058319934046L;
+    static final long serialVersionUID = 1916081655422508464L;
 
     private UUID id;
     private String message;
